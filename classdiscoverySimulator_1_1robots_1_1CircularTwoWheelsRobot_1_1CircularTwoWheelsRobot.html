@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">Discovery Simulator
    </div>
-   
+   <div id="projectbrief">discoverySimulator is a Python package allowing to simulate environments in which mobile robots evolve. This simulator is accompanied by an interface allowing to visualize and control the simulation. This package is ideal for a playful learning of python and a discovery of mobile robotics.</div>
   </td>
   
   
@@ -101,11 +101,12 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad281de753acd7d5f35eb133d03098a4d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1robots_1_1CircularTwoWheelsRobot_1_1CircularTwoWheelsRobot.html#ad281de753acd7d5f35eb133d03098a4d">__init__</a> (self, str color=None, int robotRadius=28, int distanceBetweenWheels=50, int wheelsRadius=10, int wheelYPosition=0)</td></tr>
-<tr class="memdesc:ad281de753acd7d5f35eb133d03098a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a circle two wheels robot.  <a href="classdiscoverySimulator_1_1robots_1_1CircularTwoWheelsRobot_1_1CircularTwoWheelsRobot.html#ad281de753acd7d5f35eb133d03098a4d">More...</a><br /></td></tr>
+<tr class="memdesc:ad281de753acd7d5f35eb133d03098a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a two wheels robot with a circular shape.  <a href="classdiscoverySimulator_1_1robots_1_1CircularTwoWheelsRobot_1_1CircularTwoWheelsRobot.html#ad281de753acd7d5f35eb133d03098a4d">More...</a><br /></td></tr>
 <tr class="separator:ad281de753acd7d5f35eb133d03098a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The <a class="el" href="classdiscoverySimulator_1_1robots_1_1CircularTwoWheelsRobot_1_1CircularTwoWheelsRobot.html" title="The CircularTwoWheelsRobot class provides a circular two wheels robot.">CircularTwoWheelsRobot</a> class provides a circular two wheels robot. </p>
+<p >It is a comfort class avoiding the manipulation of Shape and Representation classes. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad281de753acd7d5f35eb133d03098a4d" name="ad281de753acd7d5f35eb133d03098a4d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad281de753acd7d5f35eb133d03098a4d">&#9670;&nbsp;</a></span>__init__()</h2>
@@ -157,14 +158,14 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Constructs a circle two wheels robot. </p>
+<p>Constructs a two wheels robot with a circular shape. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">color</td><td>color of the robot </td></tr>
-    <tr><td class="paramname">robotRadius</td><td>radius of the robot [px] </td></tr>
-    <tr><td class="paramname">distanceBetweenWheels</td><td>distance between wheels of the robot [px] </td></tr>
-    <tr><td class="paramname">wheelsRadius</td><td>radius of the wheels [px] </td></tr>
-    <tr><td class="paramname">wheelYPosition</td><td>position of the wheels [px] </td></tr>
+    <tr><td class="paramname">color</td><td>Color of the robot [hex] </td></tr>
+    <tr><td class="paramname">robotRadius</td><td>Radius of the robot [px] </td></tr>
+    <tr><td class="paramname">distanceBetweenWheels</td><td>Distance between the wheels of the robot [px] </td></tr>
+    <tr><td class="paramname">wheelsRadius</td><td>Radius of the wheels [px] </td></tr>
+    <tr><td class="paramname">wheelYPosition</td><td>y-position of the wheels on the robot [px] </td></tr>
   </table>
   </dd>
 </dl>

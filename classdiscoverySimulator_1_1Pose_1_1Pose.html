@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">Discovery Simulator
    </div>
-   
+   <div id="projectbrief">discoverySimulator is a Python package allowing to simulate environments in which mobile robots evolve. This simulator is accompanied by an interface allowing to visualize and control the simulation. This package is ideal for a playful learning of python and a discovery of mobile robotics.</div>
   </td>
   
   
@@ -93,7 +93,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>The <a class="el" href="classdiscoverySimulator_1_1Pose_1_1Pose.html" title="The Pose class provides a pose.">Pose</a> class provides a pose.  
+<p>The <a class="el" href="classdiscoverySimulator_1_1Pose_1_1Pose.html" title="The Pose class provides a position representation with a coordinates system and an orientation associ...">Pose</a> class provides a position representation with a coordinates system and an orientation associated with an object.  
  <a href="classdiscoverySimulator_1_1Pose_1_1Pose.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -102,40 +102,51 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8ae9be4f39e9a27f2c082deb2ea42a6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a pose for an object.  <a href="classdiscoverySimulator_1_1Pose_1_1Pose.html#a8ae9be4f39e9a27f2c082deb2ea42a6d">More...</a><br /></td></tr>
 <tr class="separator:a8ae9be4f39e9a27f2c082deb2ea42a6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa953095733bab9e9f057be5152bc3c7f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1Pose_1_1Pose.html#aa953095733bab9e9f057be5152bc3c7f">setX</a> (self, float x)</td></tr>
-<tr class="memdesc:aa953095733bab9e9f057be5152bc3c7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the x coordinate of an object in the environment.  <a href="classdiscoverySimulator_1_1Pose_1_1Pose.html#aa953095733bab9e9f057be5152bc3c7f">More...</a><br /></td></tr>
+<tr class="memdesc:aa953095733bab9e9f057be5152bc3c7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the x coordinate of the object in its base frame.  <a href="classdiscoverySimulator_1_1Pose_1_1Pose.html#aa953095733bab9e9f057be5152bc3c7f">More...</a><br /></td></tr>
 <tr class="separator:aa953095733bab9e9f057be5152bc3c7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac212dbb49cf18030b08bdccd13c3df3e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1Pose_1_1Pose.html#ac212dbb49cf18030b08bdccd13c3df3e">setY</a> (self, float y)</td></tr>
-<tr class="memdesc:ac212dbb49cf18030b08bdccd13c3df3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the y coordinate of an object in the environment.  <a href="classdiscoverySimulator_1_1Pose_1_1Pose.html#ac212dbb49cf18030b08bdccd13c3df3e">More...</a><br /></td></tr>
+<tr class="memdesc:ac212dbb49cf18030b08bdccd13c3df3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the y coordinate of the object in its base frame.  <a href="classdiscoverySimulator_1_1Pose_1_1Pose.html#ac212dbb49cf18030b08bdccd13c3df3e">More...</a><br /></td></tr>
 <tr class="separator:ac212dbb49cf18030b08bdccd13c3df3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2dd38a2aff42947c72ff29869b1905b2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1Pose_1_1Pose.html#a2dd38a2aff42947c72ff29869b1905b2">setOrientation</a> (self, float orientation)</td></tr>
-<tr class="memdesc:a2dd38a2aff42947c72ff29869b1905b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the orientation of an object in the environment.  <a href="classdiscoverySimulator_1_1Pose_1_1Pose.html#a2dd38a2aff42947c72ff29869b1905b2">More...</a><br /></td></tr>
+<tr class="memdesc:a2dd38a2aff42947c72ff29869b1905b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the orientation of the object in its base frame.  <a href="classdiscoverySimulator_1_1Pose_1_1Pose.html#a2dd38a2aff42947c72ff29869b1905b2">More...</a><br /></td></tr>
 <tr class="separator:a2dd38a2aff42947c72ff29869b1905b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad402e2490b94596ebb62114953f01b7"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1Pose_1_1Pose.html#aad402e2490b94596ebb62114953f01b7">setRotationCenter</a> (self, float rx, float ry)</td></tr>
-<tr class="memdesc:aad402e2490b94596ebb62114953f01b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the x rotation center coordinate of an object in the environment.  <a href="classdiscoverySimulator_1_1Pose_1_1Pose.html#aad402e2490b94596ebb62114953f01b7">More...</a><br /></td></tr>
+<tr class="memdesc:aad402e2490b94596ebb62114953f01b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the x rotation center coordinate of the object in the environment.  <a href="classdiscoverySimulator_1_1Pose_1_1Pose.html#aad402e2490b94596ebb62114953f01b7">More...</a><br /></td></tr>
 <tr class="separator:aad402e2490b94596ebb62114953f01b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad53ca4fe02199dd659e4263dabedcbc2"><td class="memItemLeft" align="right" valign="top"><a id="ad53ca4fe02199dd659e4263dabedcbc2" name="ad53ca4fe02199dd659e4263dabedcbc2"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>getX</b> (self)</td></tr>
-<tr class="memdesc:ad53ca4fe02199dd659e4263dabedcbc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the x coordinate of an object in the environment. <br /></td></tr>
+<tr class="memdesc:ad53ca4fe02199dd659e4263dabedcbc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the x coordinate of the object in its base frame [px]. <br /></td></tr>
 <tr class="separator:ad53ca4fe02199dd659e4263dabedcbc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab0c980e953aa02722d5d985aeba649f"><td class="memItemLeft" align="right" valign="top"><a id="aab0c980e953aa02722d5d985aeba649f" name="aab0c980e953aa02722d5d985aeba649f"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>getY</b> (self)</td></tr>
-<tr class="memdesc:aab0c980e953aa02722d5d985aeba649f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the y coordinate of an object in the environment. <br /></td></tr>
+<tr class="memdesc:aab0c980e953aa02722d5d985aeba649f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the y coordinate of the object in its base frame [px]. <br /></td></tr>
 <tr class="separator:aab0c980e953aa02722d5d985aeba649f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a270109253b19eea523bf1d05f3837394"><td class="memItemLeft" align="right" valign="top"><a id="a270109253b19eea523bf1d05f3837394" name="a270109253b19eea523bf1d05f3837394"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>getRotationCenterX</b> (self)</td></tr>
-<tr class="memdesc:a270109253b19eea523bf1d05f3837394"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the x rotation center coordinate of an object in the environment. <br /></td></tr>
+<tr class="memdesc:a270109253b19eea523bf1d05f3837394"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the x rotation center coordinate of the object in its base frame [px]. <br /></td></tr>
 <tr class="separator:a270109253b19eea523bf1d05f3837394"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8b2ba5d8a43154e98537e134ff7dacf"><td class="memItemLeft" align="right" valign="top"><a id="ab8b2ba5d8a43154e98537e134ff7dacf" name="ab8b2ba5d8a43154e98537e134ff7dacf"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>getRotationCenterY</b> (self)</td></tr>
-<tr class="memdesc:ab8b2ba5d8a43154e98537e134ff7dacf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the y rotation center coordinate of an object in the environment. <br /></td></tr>
+<tr class="memdesc:ab8b2ba5d8a43154e98537e134ff7dacf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the y rotation center coordinate of the object in its base frame [px]. <br /></td></tr>
 <tr class="separator:ab8b2ba5d8a43154e98537e134ff7dacf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a5499706395f3e03600394bb4d58c20"><td class="memItemLeft" align="right" valign="top"><a id="a9a5499706395f3e03600394bb4d58c20" name="a9a5499706395f3e03600394bb4d58c20"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>getOrientation</b> (self)</td></tr>
-<tr class="memdesc:a9a5499706395f3e03600394bb4d58c20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the orientation of an object in the environment. <br /></td></tr>
+<tr class="memdesc:a9a5499706395f3e03600394bb4d58c20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the orientation of the object in its base frame [degrees]. <br /></td></tr>
 <tr class="separator:a9a5499706395f3e03600394bb4d58c20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8670a06918199aabcef3fbc202815a1e"><td class="memItemLeft" align="right" valign="top"><a id="a8670a06918199aabcef3fbc202815a1e" name="a8670a06918199aabcef3fbc202815a1e"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>move</b> (self, float x, float y)</td></tr>
+<tr class="memdesc:a8670a06918199aabcef3fbc202815a1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the position of the object in its base frame. <br /></td></tr>
+<tr class="separator:a8670a06918199aabcef3fbc202815a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2dafc10752760eed37c108d1eb284ab"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1Pose_1_1Pose.html#ac2dafc10752760eed37c108d1eb284ab">rotate</a> (self, float angle)</td></tr>
+<tr class="memdesc:ac2dafc10752760eed37c108d1eb284ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotates the object in its base frame.  <a href="classdiscoverySimulator_1_1Pose_1_1Pose.html#ac2dafc10752760eed37c108d1eb284ab">More...</a><br /></td></tr>
+<tr class="separator:ac2dafc10752760eed37c108d1eb284ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0f8b099ccb4b8010ccc92d4ff396367"><td class="memItemLeft" align="right" valign="top"><a id="aa0f8b099ccb4b8010ccc92d4ff396367" name="aa0f8b099ccb4b8010ccc92d4ff396367"></a>
+<a class="el" href="classdiscoverySimulator_1_1Pose_1_1Pose.html">Pose</a>&#160;</td><td class="memItemRight" valign="bottom"><b>copy</b> (self)</td></tr>
+<tr class="memdesc:aa0f8b099ccb4b8010ccc92d4ff396367"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a copy of the <a class="el" href="classdiscoverySimulator_1_1Pose_1_1Pose.html" title="The Pose class provides a position representation with a coordinates system and an orientation associ...">Pose</a> of the object. <br /></td></tr>
+<tr class="separator:aa0f8b099ccb4b8010ccc92d4ff396367"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >The <a class="el" href="classdiscoverySimulator_1_1Pose_1_1Pose.html" title="The Pose class provides a pose.">Pose</a> class provides a pose. </p>
+<div class="textblock"><p >The <a class="el" href="classdiscoverySimulator_1_1Pose_1_1Pose.html" title="The Pose class provides a position representation with a coordinates system and an orientation associ...">Pose</a> class provides a position representation with a coordinates system and an orientation associated with an object. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8ae9be4f39e9a27f2c082deb2ea42a6d" name="a8ae9be4f39e9a27f2c082deb2ea42a6d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8ae9be4f39e9a27f2c082deb2ea42a6d">&#9670;&nbsp;</a></span>__init__()</h2>
@@ -190,11 +201,11 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>getOrientation</b> (
 <p>Constructs a pose for an object. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">x</td><td>x coordinate </td></tr>
-    <tr><td class="paramname">y</td><td>y coordinate </td></tr>
-    <tr><td class="paramname">orientation</td><td>Orientation </td></tr>
-    <tr><td class="paramname">rx</td><td>x rotation center </td></tr>
-    <tr><td class="paramname">ry</td><td>y rotation center </td></tr>
+    <tr><td class="paramname">x</td><td>x coordinate [px] </td></tr>
+    <tr><td class="paramname">y</td><td>y coordinate [px] </td></tr>
+    <tr><td class="paramname">orientation</td><td>Orientation [degrees] </td></tr>
+    <tr><td class="paramname">rx</td><td>x rotation center [px] </td></tr>
+    <tr><td class="paramname">ry</td><td>y rotation center [px] </td></tr>
   </table>
   </dd>
 </dl>
@@ -202,6 +213,42 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>getOrientation</b> (
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac2dafc10752760eed37c108d1eb284ab" name="ac2dafc10752760eed37c108d1eb284ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2dafc10752760eed37c108d1eb284ab">&#9670;&nbsp;</a></span>rotate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def rotate </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>angle</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rotates the object in its base frame. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">angle</td><td>Variation of orientation [degrees] </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a2dd38a2aff42947c72ff29869b1905b2" name="a2dd38a2aff42947c72ff29869b1905b2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2dd38a2aff42947c72ff29869b1905b2">&#9670;&nbsp;</a></span>setOrientation()</h2>
 
@@ -228,10 +275,10 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>getOrientation</b> (
       </table>
 </div><div class="memdoc">
 
-<p>Sets the orientation of an object in the environment. </p>
+<p>Sets the orientation of the object in its base frame. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">orientation</td><td>New orientation </td></tr>
+    <tr><td class="paramname">orientation</td><td>Orientation [degrees] </td></tr>
   </table>
   </dd>
 </dl>
@@ -270,10 +317,10 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>getOrientation</b> (
       </table>
 </div><div class="memdoc">
 
-<p>Sets the x rotation center coordinate of an object in the environment. </p>
+<p>Sets the x rotation center coordinate of the object in the environment. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">rx</td><td>New x rotation center coordinate </td></tr>
+    <tr><td class="paramname">rx</td><td>x rotation center coordinate [px] </td></tr>
   </table>
   </dd>
 </dl>
@@ -306,10 +353,10 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>getOrientation</b> (
       </table>
 </div><div class="memdoc">
 
-<p>Sets the x coordinate of an object in the environment. </p>
+<p>Sets the x coordinate of the object in its base frame. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">x</td><td>new x coordinate </td></tr>
+    <tr><td class="paramname">x</td><td>x coordinate [px] </td></tr>
   </table>
   </dd>
 </dl>
@@ -342,10 +389,10 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>getOrientation</b> (
       </table>
 </div><div class="memdoc">
 
-<p>Sets the y coordinate of an object in the environment. </p>
+<p>Sets the y coordinate of the object in its base frame. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">y</td><td>New y coordinate </td></tr>
+    <tr><td class="paramname">y</td><td>y coordinate [px] </td></tr>
   </table>
   </dd>
 </dl>

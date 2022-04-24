@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['removeborder_0',['removeBorder',['../classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html#acc9dacefcd379697b1d00308b1020c71',1,'discoverySimulator::representation::shapes::Shape::Shape']]],
-  ['removeobject_1',['removeObject',['../classdiscoverySimulator_1_1simulation_1_1Environment_1_1Environment.html#a4ce592ca7fd29283f8c377f75b1a7338',1,'discoverySimulator::simulation::Environment::Environment']]],
-  ['removevirtualobject_2',['removeVirtualObject',['../classdiscoverySimulator_1_1simulation_1_1Environment_1_1Environment.html#a6885374ab2d634770a78a043d0e0d655',1,'discoverySimulator::simulation::Environment::Environment']]],
-  ['run_3',['run',['../classdiscoverySimulator_1_1simulation_1_1Simulation_1_1Simulation.html#ad22709b2e67308af35f55680d5a026e0',1,'discoverySimulator::simulation::Simulation::Simulation']]]
+  ['filltable_0',['fillTable',['../classlearning_1_1ReinforcementLearning_1_1ReinforcementLearning.html#a0cb937a57ca49dd073e39c220cd1c430',1,'learning::ReinforcementLearning::ReinforcementLearning']]],
+  ['findpath_1',['findPath',['../classpath_1_1PathFinding_1_1PathFinding.html#aff2bc24379654819727f88f1ca4c062a',1,'path::PathFinding::PathFinding']]],
+  ['followpath_2',['followPath',['../classpath_1_1PathFollowing_1_1PathFollowing.html#ad3300a889bd02396421e9f3669acddae',1,'path::PathFollowing::PathFollowing']]]
 ];

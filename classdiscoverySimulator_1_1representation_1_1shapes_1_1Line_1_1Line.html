@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">Discovery Simulator
    </div>
-   
+   <div id="projectbrief">discoverySimulator is a Python package allowing to simulate environments in which mobile robots evolve. This simulator is accompanied by an interface allowing to visualize and control the simulation. This package is ideal for a playful learning of python and a discovery of mobile robotics.</div>
   </td>
   
   
@@ -88,33 +88,143 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Line_1_1Line-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Line Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>The <a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Line_1_1Line.html" title="The Line class provides a line.">Line</a> class provides a line.  
+<p>The <a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Line_1_1Line.html" title="The Line class provides a line shape.">Line</a> class provides a line shape.  
  <a href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Line_1_1Line.html#details">More...</a></p>
 
 <p>Inherits Shape.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aaf69ff2e9c8d86f8e7c716ffbdac9cee"><td class="memItemLeft" align="right" valign="top"><a id="aaf69ff2e9c8d86f8e7c716ffbdac9cee" name="aaf69ff2e9c8d86f8e7c716ffbdac9cee"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, float length, float width=1, str color=None, int opacity=255)</td></tr>
-<tr class="memdesc:aaf69ff2e9c8d86f8e7c716ffbdac9cee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Line_1_1Line.html" title="The Line class provides a line.">Line</a>. <br /></td></tr>
+<tr class="memitem:aaf69ff2e9c8d86f8e7c716ffbdac9cee"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Line_1_1Line.html#aaf69ff2e9c8d86f8e7c716ffbdac9cee">__init__</a> (self, float length, float width=1, str color=None, int opacity=255)</td></tr>
+<tr class="memdesc:aaf69ff2e9c8d86f8e7c716ffbdac9cee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Line_1_1Line.html" title="The Line class provides a line shape.">Line</a> of the desired length, width and color.  <a href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Line_1_1Line.html#aaf69ff2e9c8d86f8e7c716ffbdac9cee">More...</a><br /></td></tr>
 <tr class="separator:aaf69ff2e9c8d86f8e7c716ffbdac9cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aede516eda741c448d76ff0c4887add4e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Line_1_1Line.html#aede516eda741c448d76ff0c4887add4e">setLength</a> (self, float length)</td></tr>
 <tr class="memdesc:aede516eda741c448d76ff0c4887add4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the length of a line.  <a href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Line_1_1Line.html#aede516eda741c448d76ff0c4887add4e">More...</a><br /></td></tr>
 <tr class="separator:aede516eda741c448d76ff0c4887add4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10ef1226a3eb3885cbe9ca28f7ef4911"><td class="memItemLeft" align="right" valign="top"><a id="a10ef1226a3eb3885cbe9ca28f7ef4911" name="a10ef1226a3eb3885cbe9ca28f7ef4911"></a>
 Rectangle&#160;</td><td class="memItemRight" valign="bottom"><b>getBoundingBox</b> (self)</td></tr>
-<tr class="memdesc:a10ef1226a3eb3885cbe9ca28f7ef4911"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the bounding box of a rectangle. <br /></td></tr>
+<tr class="memdesc:a10ef1226a3eb3885cbe9ca28f7ef4911"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the bounding box of the line. <br /></td></tr>
 <tr class="separator:a10ef1226a3eb3885cbe9ca28f7ef4911"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a266679c613272e39662eb482f0f78436"><td class="memItemLeft" align="right" valign="top">Rectangle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Line_1_1Line.html#a266679c613272e39662eb482f0f78436">offset</a> (self, float value, bool truncated=False)</td></tr>
+<tr class="memdesc:a266679c613272e39662eb482f0f78436"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the enlarged line shape of the selected offset.  <a href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Line_1_1Line.html#a266679c613272e39662eb482f0f78436">More...</a><br /></td></tr>
+<tr class="separator:a266679c613272e39662eb482f0f78436"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ae98cb84fae49d48838b18673257b11bb"><td class="memItemLeft" align="right" valign="top"><a id="ae98cb84fae49d48838b18673257b11bb" name="ae98cb84fae49d48838b18673257b11bb"></a>
+Tuple[float, float]&#160;</td><td class="memItemRight" valign="bottom"><b>getLineCoefficient</b> (QLineF line)</td></tr>
+<tr class="memdesc:ae98cb84fae49d48838b18673257b11bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the directing coefficient (m) and the y-intercept (p) of the QLineF (y = m.x + p). <br /></td></tr>
+<tr class="separator:ae98cb84fae49d48838b18673257b11bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >The <a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Line_1_1Line.html" title="The Line class provides a line.">Line</a> class provides a line. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<div class="textblock"><p >The <a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Line_1_1Line.html" title="The Line class provides a line shape.">Line</a> class provides a line shape. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aaf69ff2e9c8d86f8e7c716ffbdac9cee" name="aaf69ff2e9c8d86f8e7c716ffbdac9cee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf69ff2e9c8d86f8e7c716ffbdac9cee">&#9670;&nbsp;</a></span>__init__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def __init__ </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>width</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">str&#160;</td>
+          <td class="paramname"><em>color</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>opacity</em> = <code>255</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructs a <a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Line_1_1Line.html" title="The Line class provides a line shape.">Line</a> of the desired length, width and color. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">length</td><td>Length of the line [px] </td></tr>
+    <tr><td class="paramname">width</td><td>Width of the line [px] </td></tr>
+    <tr><td class="paramname">color</td><td>Color of the line [hex] </td></tr>
+    <tr><td class="paramname">opacity</td><td>Opacity of the line (between 0 and 255) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a266679c613272e39662eb482f0f78436" name="a266679c613272e39662eb482f0f78436"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a266679c613272e39662eb482f0f78436">&#9670;&nbsp;</a></span>offset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> Rectangle offset </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>truncated</em> = <code>False</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the enlarged line shape of the selected offset. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>Offset size </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="aede516eda741c448d76ff0c4887add4e" name="aede516eda741c448d76ff0c4887add4e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aede516eda741c448d76ff0c4887add4e">&#9670;&nbsp;</a></span>setLength()</h2>
 

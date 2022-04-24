@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['time_0',['time',['../classdiscoverySimulator_1_1simulation_1_1Simulation_1_1Simulation.html#a1ae7bb618fe42a1e8348cd042b174271',1,'discoverySimulator::simulation::Simulation::Simulation']]],
-  ['togglevisible_1',['toggleVisible',['../classdiscoverySimulator_1_1representation_1_1Representation_1_1Representation.html#a480f9df57b40de009f9e553f7c2fbb98',1,'discoverySimulator::representation::Representation::Representation']]]
+  ['learn_0',['learn',['../classlearning_1_1ReinforcementLearning_1_1ReinforcementLearning.html#abfa939c46d9f48971bbaad5529587933',1,'learning::ReinforcementLearning::ReinforcementLearning']]],
+  ['loadmodel_1',['loadModel',['../classlearning_1_1ReinforcementLearning_1_1ReinforcementLearning.html#ad97f7c7d82912aa4e6c8527fa540e98f',1,'learning::ReinforcementLearning::ReinforcementLearning']]]
 ];

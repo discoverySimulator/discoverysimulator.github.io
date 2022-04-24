@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">Discovery Simulator
    </div>
-   
+   <div id="projectbrief">discoverySimulator is a Python package allowing to simulate environments in which mobile robots evolve. This simulator is accompanied by an interface allowing to visualize and control the simulation. This package is ideal for a playful learning of python and a discovery of mobile robotics.</div>
   </td>
   
   
@@ -93,7 +93,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>The <a class="el" href="classdiscoverySimulator_1_1robots_1_1Robot_1_1Robot.html" title="The Robot class provides a robot.">Robot</a> class provides a robot.  
+<p>The <a class="el" href="classdiscoverySimulator_1_1robots_1_1Robot_1_1Robot.html" title="The Robot class provides a mold to implement robots.">Robot</a> class provides a mold to implement robots.  
  <a href="classdiscoverySimulator_1_1robots_1_1Robot_1_1Robot.html#details">More...</a></p>
 
 <p>Inherits ABC, and Object.</p>
@@ -101,34 +101,61 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a8eae11531e01162d80a6e89a521ac7f7"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1robots_1_1Robot_1_1Robot.html#a8eae11531e01162d80a6e89a521ac7f7">__init__</a> (self, representation)</td></tr>
-<tr class="memdesc:a8eae11531e01162d80a6e89a521ac7f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new robot.  <a href="classdiscoverySimulator_1_1robots_1_1Robot_1_1Robot.html#a8eae11531e01162d80a6e89a521ac7f7">More...</a><br /></td></tr>
+<tr class="memdesc:a8eae11531e01162d80a6e89a521ac7f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a robot with the desired representation.  <a href="classdiscoverySimulator_1_1robots_1_1Robot_1_1Robot.html#a8eae11531e01162d80a6e89a521ac7f7">More...</a><br /></td></tr>
 <tr class="separator:a8eae11531e01162d80a6e89a521ac7f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0230eaba78d685c0cbc81eb26338086e"><td class="memItemLeft" align="right" valign="top"><a id="a0230eaba78d685c0cbc81eb26338086e" name="a0230eaba78d685c0cbc81eb26338086e"></a>
 List[<a class="el" href="classdiscoverySimulator_1_1Component_1_1Component.html">Component</a>]&#160;</td><td class="memItemRight" valign="bottom"><b>getComponents</b> (self)</td></tr>
-<tr class="memdesc:a0230eaba78d685c0cbc81eb26338086e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all components. <br /></td></tr>
+<tr class="memdesc:a0230eaba78d685c0cbc81eb26338086e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all the components mounted on the robot. <br /></td></tr>
 <tr class="separator:a0230eaba78d685c0cbc81eb26338086e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fa153cf9c31821dacf1f6c95a3e7871"><td class="memItemLeft" align="right" valign="top"><a id="a6fa153cf9c31821dacf1f6c95a3e7871" name="a6fa153cf9c31821dacf1f6c95a3e7871"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>getLeftLinearSpeed</b> (self)</td></tr>
-<tr class="memdesc:a6fa153cf9c31821dacf1f6c95a3e7871"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the left linear speed. <br /></td></tr>
+<tr class="memdesc:a6fa153cf9c31821dacf1f6c95a3e7871"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the left wheel linear speed [px/min]. <br /></td></tr>
 <tr class="separator:a6fa153cf9c31821dacf1f6c95a3e7871"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2a653d808858a74381d5799e7315054"><td class="memItemLeft" align="right" valign="top"><a id="ad2a653d808858a74381d5799e7315054" name="ad2a653d808858a74381d5799e7315054"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>getRightLinearSpeed</b> (self)</td></tr>
-<tr class="memdesc:ad2a653d808858a74381d5799e7315054"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the right linear speed. <br /></td></tr>
+<tr class="memdesc:ad2a653d808858a74381d5799e7315054"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the right wheel linear speed [px/min]. <br /></td></tr>
 <tr class="separator:ad2a653d808858a74381d5799e7315054"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad09af05bab503bf7614f8ead604373b1"><td class="memItemLeft" align="right" valign="top"><a id="ad09af05bab503bf7614f8ead604373b1" name="ad09af05bab503bf7614f8ead604373b1"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>getDistanceBetweenWheels</b> (self)</td></tr>
-<tr class="memdesc:ad09af05bab503bf7614f8ead604373b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the distance between wheels. <br /></td></tr>
+<tr class="memdesc:ad09af05bab503bf7614f8ead604373b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the distance between the wheels of the robot [px]. <br /></td></tr>
 <tr class="separator:ad09af05bab503bf7614f8ead604373b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5febdddcd89faec10191f3d470a593dc"><td class="memItemLeft" align="right" valign="top"><a id="a5febdddcd89faec10191f3d470a593dc" name="a5febdddcd89faec10191f3d470a593dc"></a>
+<a class="el" href="classdiscoverySimulator_1_1Pose_1_1Pose.html">Pose</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getOdometryPose</b> (self)</td></tr>
+<tr class="memdesc:a5febdddcd89faec10191f3d470a593dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the odometry estimated position of the robot. <br /></td></tr>
+<tr class="separator:a5febdddcd89faec10191f3d470a593dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabaf5395e1679dc8c1eb059eef837c47"><td class="memItemLeft" align="right" valign="top"><a id="aabaf5395e1679dc8c1eb059eef837c47" name="aabaf5395e1679dc8c1eb059eef837c47"></a>
 List[<a class="el" href="classdiscoverySimulator_1_1actuators_1_1Wheel_1_1Wheel.html">Wheel</a>]&#160;</td><td class="memItemRight" valign="bottom"><b>getWheels</b> (self)</td></tr>
 <tr class="memdesc:aabaf5395e1679dc8c1eb059eef837c47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all the wheels of a robot. <br /></td></tr>
 <tr class="separator:aabaf5395e1679dc8c1eb059eef837c47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bc84997a88476d9fae14b959d2a54ae"><td class="memItemLeft" align="right" valign="top"><a id="a3bc84997a88476d9fae14b959d2a54ae" name="a3bc84997a88476d9fae14b959d2a54ae"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>getBoundingWidth</b> (self)</td></tr>
+<tr class="memdesc:a3bc84997a88476d9fae14b959d2a54ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the bounding width of the robot. <br /></td></tr>
+<tr class="separator:a3bc84997a88476d9fae14b959d2a54ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e46ceb367afc5a2cc915b05cee6139d"><td class="memItemLeft" align="right" valign="top"><a id="a3e46ceb367afc5a2cc915b05cee6139d" name="a3e46ceb367afc5a2cc915b05cee6139d"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>getBoundingHeight</b> (self)</td></tr>
+<tr class="memdesc:a3e46ceb367afc5a2cc915b05cee6139d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the bounding height of the robot. <br /></td></tr>
+<tr class="separator:a3e46ceb367afc5a2cc915b05cee6139d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a155e05b8106f1251d5fa5195f26c4fd6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1robots_1_1Robot_1_1Robot.html#a155e05b8106f1251d5fa5195f26c4fd6">addComponent</a> (self, <a class="el" href="classdiscoverySimulator_1_1Component_1_1Component.html">Component</a> component, float x=0, float y=0, float orientation=0)</td></tr>
 <tr class="memdesc:a155e05b8106f1251d5fa5195f26c4fd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a component to a robot.  <a href="classdiscoverySimulator_1_1robots_1_1Robot_1_1Robot.html#a155e05b8106f1251d5fa5195f26c4fd6">More...</a><br /></td></tr>
 <tr class="separator:a155e05b8106f1251d5fa5195f26c4fd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5efb06c72a158b09f440cc0f4965c92"><td class="memItemLeft" align="right" valign="top"><a id="ad5efb06c72a158b09f440cc0f4965c92" name="ad5efb06c72a158b09f440cc0f4965c92"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>hasComponent</b> (self, <a class="el" href="classdiscoverySimulator_1_1Component_1_1Component.html">Component</a> component)</td></tr>
+<tr class="memdesc:ad5efb06c72a158b09f440cc0f4965c92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns True if the component is mounted on the robot; otherwise returns False. <br /></td></tr>
+<tr class="separator:ad5efb06c72a158b09f440cc0f4965c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a193219335cef9ef33c62a3e8e143efcd"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1robots_1_1Robot_1_1Robot.html#a193219335cef9ef33c62a3e8e143efcd">isOdometryEnabled</a> (self)</td></tr>
+<tr class="memdesc:a193219335cef9ef33c62a3e8e143efcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns True if the odometry position estimate is enabled; otherwise returns False.  <a href="classdiscoverySimulator_1_1robots_1_1Robot_1_1Robot.html#a193219335cef9ef33c62a3e8e143efcd">More...</a><br /></td></tr>
+<tr class="separator:a193219335cef9ef33c62a3e8e143efcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae919364b19a48ae906dec3bd9521702a"><td class="memItemLeft" align="right" valign="top"><a id="ae919364b19a48ae906dec3bd9521702a" name="ae919364b19a48ae906dec3bd9521702a"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>enableOdometry</b> (self, accuracy=1)</td></tr>
+<tr class="memdesc:ae919364b19a48ae906dec3bd9521702a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables the odometry position estimate. <br /></td></tr>
+<tr class="separator:ae919364b19a48ae906dec3bd9521702a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae426372fba877ba2e1ea09825bb48bf0"><td class="memItemLeft" align="right" valign="top"><a id="ae426372fba877ba2e1ea09825bb48bf0" name="ae426372fba877ba2e1ea09825bb48bf0"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>disableOdometry</b> (self)</td></tr>
+<tr class="memdesc:ae426372fba877ba2e1ea09825bb48bf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables the odometry position estimate. <br /></td></tr>
+<tr class="separator:ae426372fba877ba2e1ea09825bb48bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >The <a class="el" href="classdiscoverySimulator_1_1robots_1_1Robot_1_1Robot.html" title="The Robot class provides a robot.">Robot</a> class provides a robot. </p>
+<div class="textblock"><p >The <a class="el" href="classdiscoverySimulator_1_1robots_1_1Robot_1_1Robot.html" title="The Robot class provides a mold to implement robots.">Robot</a> class provides a mold to implement robots. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8eae11531e01162d80a6e89a521ac7f7" name="a8eae11531e01162d80a6e89a521ac7f7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8eae11531e01162d80a6e89a521ac7f7">&#9670;&nbsp;</a></span>__init__()</h2>
@@ -156,7 +183,7 @@ List[<a class="el" href="classdiscoverySimulator_1_1actuators_1_1Wheel_1_1Wheel.
       </table>
 </div><div class="memdoc">
 
-<p>Constructs a new robot. </p>
+<p>Constructs a robot with the desired representation. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">representation</td><td>Representation of the robot </td></tr>
@@ -221,6 +248,26 @@ List[<a class="el" href="classdiscoverySimulator_1_1actuators_1_1Wheel_1_1Wheel.
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a193219335cef9ef33c62a3e8e143efcd" name="a193219335cef9ef33c62a3e8e143efcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a193219335cef9ef33c62a3e8e143efcd">&#9670;&nbsp;</a></span>isOdometryEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def isOdometryEnabled </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns True if the odometry position estimate is enabled; otherwise returns False. </p>
 
 </div>
 </div>

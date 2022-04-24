@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">Discovery Simulator
    </div>
-   
+   <div id="projectbrief">discoverySimulator is a Python package allowing to simulate environments in which mobile robots evolve. This simulator is accompanied by an interface allowing to visualize and control the simulation. This package is ideal for a playful learning of python and a discovery of mobile robotics.</div>
   </td>
   
   
@@ -95,30 +95,42 @@ $(function() {
 
 <p>The <a class="el" href="classdiscoverySimulator_1_1simulation_1_1Environment_1_1Environment.html" title="The Environment class provides an environment to simulate.">Environment</a> class provides an environment to simulate.  
  <a href="classdiscoverySimulator_1_1simulation_1_1Environment_1_1Environment.html#details">More...</a></p>
+
+<p>Inherits Observable.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af21da0ba5e4b2b54ceb1bcdccc1dcb96"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1simulation_1_1Environment_1_1Environment.html#af21da0ba5e4b2b54ceb1bcdccc1dcb96">__init__</a> (self, int width, int height, str model='perfect')</td></tr>
-<tr class="memdesc:af21da0ba5e4b2b54ceb1bcdccc1dcb96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an environment.  <a href="classdiscoverySimulator_1_1simulation_1_1Environment_1_1Environment.html#af21da0ba5e4b2b54ceb1bcdccc1dcb96">More...</a><br /></td></tr>
+<tr class="memdesc:af21da0ba5e4b2b54ceb1bcdccc1dcb96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an environment which can be perfect or real.  <a href="classdiscoverySimulator_1_1simulation_1_1Environment_1_1Environment.html#af21da0ba5e4b2b54ceb1bcdccc1dcb96">More...</a><br /></td></tr>
 <tr class="separator:af21da0ba5e4b2b54ceb1bcdccc1dcb96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef6222a4c5e868d76aa20c2829051ce9"><td class="memItemLeft" align="right" valign="top"><a id="aef6222a4c5e868d76aa20c2829051ce9" name="aef6222a4c5e868d76aa20c2829051ce9"></a>
 List[<a class="el" href="classdiscoverySimulator_1_1Object_1_1Object.html">Object</a>]&#160;</td><td class="memItemRight" valign="bottom"><b>getObjects</b> (self)</td></tr>
-<tr class="memdesc:aef6222a4c5e868d76aa20c2829051ce9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all the objects of the environment. <br /></td></tr>
+<tr class="memdesc:aef6222a4c5e868d76aa20c2829051ce9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all the objects added in the environment. <br /></td></tr>
 <tr class="separator:aef6222a4c5e868d76aa20c2829051ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5da3a15d6d217f587717b9a2cef70be4"><td class="memItemLeft" align="right" valign="top"><a id="a5da3a15d6d217f587717b9a2cef70be4" name="a5da3a15d6d217f587717b9a2cef70be4"></a>
 List[<a class="el" href="classdiscoverySimulator_1_1Object_1_1Object.html">Object</a>]&#160;</td><td class="memItemRight" valign="bottom"><b>getVirtualObjects</b> (self)</td></tr>
-<tr class="memdesc:a5da3a15d6d217f587717b9a2cef70be4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all the virtuals objects of the environment. <br /></td></tr>
+<tr class="memdesc:a5da3a15d6d217f587717b9a2cef70be4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all the virtuals objects added in the environment. <br /></td></tr>
 <tr class="separator:a5da3a15d6d217f587717b9a2cef70be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a096e1a9f096e04e7760ab8bd747434c7"><td class="memItemLeft" align="right" valign="top"><a id="a096e1a9f096e04e7760ab8bd747434c7" name="a096e1a9f096e04e7760ab8bd747434c7"></a>
 List[<a class="el" href="classdiscoverySimulator_1_1sensors_1_1Sensor_1_1Sensor.html">Sensor</a>]&#160;</td><td class="memItemRight" valign="bottom"><b>getSensors</b> (self)</td></tr>
-<tr class="memdesc:a096e1a9f096e04e7760ab8bd747434c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all the sensors of the environment. <br /></td></tr>
+<tr class="memdesc:a096e1a9f096e04e7760ab8bd747434c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all the sensors added in the environment and mounted on the robots present in the environment. <br /></td></tr>
 <tr class="separator:a096e1a9f096e04e7760ab8bd747434c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c8e8a4963c848b5158ecb52d0841c03"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1simulation_1_1Environment_1_1Environment.html#a8c8e8a4963c848b5158ecb52d0841c03">getWidth</a> (self)</td></tr>
-<tr class="memdesc:a8c8e8a4963c848b5158ecb52d0841c03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the width of the environment.  <a href="classdiscoverySimulator_1_1simulation_1_1Environment_1_1Environment.html#a8c8e8a4963c848b5158ecb52d0841c03">More...</a><br /></td></tr>
+<tr class="memitem:ab9b5a69d8fceeadaef728849d091973e"><td class="memItemLeft" align="right" valign="top"><a id="ab9b5a69d8fceeadaef728849d091973e" name="ab9b5a69d8fceeadaef728849d091973e"></a>
+QSize&#160;</td><td class="memItemRight" valign="bottom"><b>getSize</b> (self)</td></tr>
+<tr class="memdesc:ab9b5a69d8fceeadaef728849d091973e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of the environment (QSize: .width() [px], .height() [px]). <br /></td></tr>
+<tr class="separator:ab9b5a69d8fceeadaef728849d091973e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c8e8a4963c848b5158ecb52d0841c03"><td class="memItemLeft" align="right" valign="top"><a id="a8c8e8a4963c848b5158ecb52d0841c03" name="a8c8e8a4963c848b5158ecb52d0841c03"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getWidth</b> (self)</td></tr>
+<tr class="memdesc:a8c8e8a4963c848b5158ecb52d0841c03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the width of the environment [px]. <br /></td></tr>
 <tr class="separator:a8c8e8a4963c848b5158ecb52d0841c03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fafe8708d3d50d4192f20e76c01041b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1simulation_1_1Environment_1_1Environment.html#a8fafe8708d3d50d4192f20e76c01041b">getHeight</a> (self)</td></tr>
-<tr class="memdesc:a8fafe8708d3d50d4192f20e76c01041b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the height of the environment.  <a href="classdiscoverySimulator_1_1simulation_1_1Environment_1_1Environment.html#a8fafe8708d3d50d4192f20e76c01041b">More...</a><br /></td></tr>
+<tr class="memitem:a8fafe8708d3d50d4192f20e76c01041b"><td class="memItemLeft" align="right" valign="top"><a id="a8fafe8708d3d50d4192f20e76c01041b" name="a8fafe8708d3d50d4192f20e76c01041b"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getHeight</b> (self)</td></tr>
+<tr class="memdesc:a8fafe8708d3d50d4192f20e76c01041b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the height of the environment [px]. <br /></td></tr>
 <tr class="separator:a8fafe8708d3d50d4192f20e76c01041b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ff1c5e9971b01b679e6f1a6dee631e6"><td class="memItemLeft" align="right" valign="top"><a id="a4ff1c5e9971b01b679e6f1a6dee631e6" name="a4ff1c5e9971b01b679e6f1a6dee631e6"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>isReal</b> (self)</td></tr>
+<tr class="memdesc:a4ff1c5e9971b01b679e6f1a6dee631e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns True if the environment is real; otherwise returns False. <br /></td></tr>
+<tr class="separator:a4ff1c5e9971b01b679e6f1a6dee631e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a785875a1a059f1ce3e09670a3df2d4ae"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1simulation_1_1Environment_1_1Environment.html#a785875a1a059f1ce3e09670a3df2d4ae">addObject</a> (self, <a class="el" href="classdiscoverySimulator_1_1Object_1_1Object.html">Object</a> object, float x=0, float y=0, float orientation=0)</td></tr>
 <tr class="memdesc:a785875a1a059f1ce3e09670a3df2d4ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an object in the environment.  <a href="classdiscoverySimulator_1_1simulation_1_1Environment_1_1Environment.html#a785875a1a059f1ce3e09670a3df2d4ae">More...</a><br /></td></tr>
 <tr class="separator:a785875a1a059f1ce3e09670a3df2d4ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,7 +185,7 @@ List[<a class="el" href="classdiscoverySimulator_1_1sensors_1_1Sensor_1_1Sensor.
       </table>
 </div><div class="memdoc">
 
-<p>Constructs an environment. </p>
+<p>Constructs an environment which can be perfect or real. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">width</td><td>Width of the environment [px] </td></tr>
@@ -232,9 +244,9 @@ List[<a class="el" href="classdiscoverySimulator_1_1sensors_1_1Sensor_1_1Sensor.
 <p>Adds an object in the environment. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">object</td><td>Object of the class Object or which inherits from Object </td></tr>
-    <tr><td class="paramname">x</td><td>x coordinate of the object in the environment [px] </td></tr>
-    <tr><td class="paramname">y</td><td>y coordinate of the object in the environment [px] </td></tr>
+    <tr><td class="paramname">object</td><td>Object of the class Object or which inherits from Object to add in the environment </td></tr>
+    <tr><td class="paramname">x</td><td>x-coordinate of the object in the environment [px] </td></tr>
+    <tr><td class="paramname">y</td><td>y-coordinate of the object in the environment [px] </td></tr>
     <tr><td class="paramname">orientation</td><td>Orientation of the object in the environment [degrees] </td></tr>
   </table>
   </dd>
@@ -289,55 +301,13 @@ List[<a class="el" href="classdiscoverySimulator_1_1sensors_1_1Sensor_1_1Sensor.
 <p>Adds a virtual object in the environment. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">virtualObject</td><td>object of the class Object or which inherits from Object </td></tr>
-    <tr><td class="paramname">x</td><td>x coordinate of the object in the environment [px] </td></tr>
-    <tr><td class="paramname">y</td><td>y coordinate of the object in the environment [px] </td></tr>
+    <tr><td class="paramname">virtualObject</td><td>Object of the class Object or which inherits from Object to add in the environment </td></tr>
+    <tr><td class="paramname">x</td><td>x-coordinate of the object in the environment [px] </td></tr>
+    <tr><td class="paramname">y</td><td>y-coordinate of the object in the environment [px] </td></tr>
     <tr><td class="paramname">orientation</td><td>Orientation of the object in the environment [degrees] </td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a8fafe8708d3d50d4192f20e76c01041b" name="a8fafe8708d3d50d4192f20e76c01041b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fafe8708d3d50d4192f20e76c01041b">&#9670;&nbsp;</a></span>getHeight()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> int getHeight </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns the height of the environment. </p>
-<p >[px] </p>
-
-</div>
-</div>
-<a id="a8c8e8a4963c848b5158ecb52d0841c03" name="a8c8e8a4963c848b5158ecb52d0841c03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c8e8a4963c848b5158ecb52d0841c03">&#9670;&nbsp;</a></span>getWidth()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> int getWidth </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns the width of the environment. </p>
-<p >[px] </p>
 
 </div>
 </div>

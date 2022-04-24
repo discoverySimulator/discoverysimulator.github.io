@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Discovery Simulator: Main Page</title>
+<title>Discovery Simulator: Robotic simulator for Python</title>
 
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 
@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">Discovery Simulator
    </div>
-   
+   <div id="projectbrief">discoverySimulator is a Python package allowing to simulate environments in which mobile robots evolve. This simulator is accompanied by an interface allowing to visualize and control the simulation. This package is ideal for a playful learning of python and a discovery of mobile robotics.</div>
   </td>
   
   
@@ -81,10 +81,63 @@ $(function() {
 </iframe>
 </div>
 
-<div class="header">
-  <div class="headertitle"><div class="title">Discovery Simulator Documentation</div></div>
+<div><div class="header">
+  <div class="headertitle"><div class="title">Robotic simulator for Python </div></div>
 </div><!--header-->
 <div class="contents">
+<div class="textblock"><p ><a class="anchor" id="md__mnt_d_leopl_Documents____ISEN_ANNEE_4__PROJET_M1_code__projet_m1_README"></a> </p>
+<h1><a class="anchor" id="autotoc_md1"></a>
+What's this</h1>
+<p ><b>discoverySimulator</b> is a Python package allowing to simulate environments in which mobile robots evolve. This simulator is accompanied by an interface allowing to visualize and control the simulation. This package is ideal for a playful learning of python and a discovery of mobile robotics.</p>
+<h1><a class="anchor" id="autotoc_md2"></a>
+Documentation</h1>
+<p >The documentation associated with this python package can be found <a href="https://discoverysimulator.github.io/">here</a>.</p>
+<h1><a class="anchor" id="autotoc_md3"></a>
+Installation</h1>
+<p >Use the package manager <a href="https://pip.pypa.io/en/stable/">pip</a> to install the package <b>discoverySimulator</b>:</p>
+<div class="fragment"><div class="line">$ pip install discoverySimulator</div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md4"></a>
+Usage example</h1>
+<h2><a class="anchor" id="autotoc_md5"></a>
+Code</h2>
+<div class="fragment"><div class="line"><span class="keyword">from</span> discoverySimulator.simulation <span class="keyword">import</span> Simulation, Environment</div>
+<div class="line"><span class="keyword">from</span> discoverySimulator.robots <span class="keyword">import</span> RectangularTwoWheelsRobot</div>
+<div class="line"> </div>
+<div class="line"><span class="comment"># Create robot and assign wheel speed</span></div>
+<div class="line">myRobot = RectangularTwoWheelsRobot()</div>
+<div class="line">myRobot.setRightWheelSpeed(500)</div>
+<div class="line">myRobot.setLeftWheelSpeed(200)</div>
+<div class="line"> </div>
+<div class="line"><span class="comment"># Create environment</span></div>
+<div class="line">environmentWidth = 1500</div>
+<div class="line">environmentHeight = 1500</div>
+<div class="line">myEnvironment = Environment(environmentWidth,environmentHeight)</div>
+<div class="line">myEnvironment.addObject(myRobot,200,200,90)</div>
+<div class="line"> </div>
+<div class="line"><span class="comment"># Create and run simulation </span></div>
+<div class="line">mySimulation = Simulation(myEnvironment)</div>
+<div class="line">mySimulation.run()</div>
+<div class="line">mySimulation.showInterface()</div>
+<div class="ttc" id="anamespacediscoverySimulator_1_1robots_html"><div class="ttname"><a href="namespacediscoverySimulator_1_1robots.html">discoverySimulator.robots</a></div><div class="ttdef"><b>Definition:</b> __init__.py:1</div></div>
+<div class="ttc" id="anamespacediscoverySimulator_1_1simulation_html"><div class="ttname"><a href="namespacediscoverySimulator_1_1simulation.html">discoverySimulator.simulation</a></div><div class="ttdef"><b>Definition:</b> __init__.py:1</div></div>
+</div><!-- fragment --> <h2><a class="anchor" id="autotoc_md6"></a>
+Code result</h2>
+<p ><img src="code_result.png" alt="" class="inline" title="screenshot" style="width: 100%; max-width: 1920px;"/>    </p>
+<h1><a class="anchor" id="autotoc_md7"></a>
+Help and bug reports</h1>
+<p >General questions and comments can be sent to the following email address: <a href="#" onclick="location.href='mai'+'lto:'+'dis'+'co'+'ver'+'ys'+'imu'+'la'+'tor'+'@g'+'mai'+'l.'+'com'; return false;">discoverysimulator@gmail.com</a>.</p>
+<p >You can also report bugs at this same email address.</p>
+<h1><a class="anchor" id="autotoc_md8"></a>
+How to contribute</h1>
+<p >We are open to contributions, so send us your ideas or code amendments to the following email address: <a href="#" onclick="location.href='mai'+'lto:'+'dis'+'co'+'ver'+'ys'+'imu'+'la'+'tor'+'@g'+'mai'+'l.'+'com'; return false;">discoverysimulator@gmail.com</a>, and we will do our best to accommodate you!</p>
+<h1><a class="anchor" id="autotoc_md9"></a>
+Credits</h1>
+<p >Copyright (c) 2022, Leo Planquette &amp; Eloise Lefebvre.</p>
+<h1><a class="anchor" id="autotoc_md10"></a>
+License</h1>
+<p ><b>discoverySimulator</b> is released under the GPL v3 license and under a commercial license that allows for the development of proprietary applications.</p>
+<p >Additional details about this license can be found <a href="https://choosealicense.com/licenses/gpl-3.0/">here</a>. </p>
+</div></div><!-- PageDoc -->
 </div><!-- contents -->
 <!-- start footer part -->
 

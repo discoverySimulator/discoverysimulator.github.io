@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">Discovery Simulator
    </div>
-   
+   <div id="projectbrief">discoverySimulator is a Python package allowing to simulate environments in which mobile robots evolve. This simulator is accompanied by an interface allowing to visualize and control the simulation. This package is ideal for a playful learning of python and a discovery of mobile robotics.</div>
   </td>
   
   
@@ -88,12 +88,13 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Point_1_1Point-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Point Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>The <a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Point_1_1Point.html" title="The Point class provides a point.">Point</a> class provides a point.  
+<p>The <a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Point_1_1Point.html" title="The Point class provides a point shape.">Point</a> class provides a point shape.  
  <a href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Point_1_1Point.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Point:</div>
@@ -101,60 +102,228 @@ Inheritance diagram for Point:</div>
  <div class="center">
   <img src="classdiscoverySimulator_1_1representation_1_1shapes_1_1Point_1_1Point.png" usemap="#Point_map" alt=""/>
   <map id="Point_map" name="Point_map">
-<area href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html" title="The Shape class provides a Shape." alt="Shape" shape="rect" coords="0,0,48,24"/>
+<area href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html" title="The Shape class provides a shape mold." alt="Shape" shape="rect" coords="0,0,48,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:afb932a0d59c12485bb042453ce1cb0d1"><td class="memItemLeft" align="right" valign="top"><a id="afb932a0d59c12485bb042453ce1cb0d1" name="afb932a0d59c12485bb042453ce1cb0d1"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, str color=&quot;#000&quot;, int opacity=255)</td></tr>
-<tr class="memdesc:afb932a0d59c12485bb042453ce1cb0d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a Shape. <br /></td></tr>
+<tr class="memitem:afb932a0d59c12485bb042453ce1cb0d1"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Point_1_1Point.html#afb932a0d59c12485bb042453ce1cb0d1">__init__</a> (self, str color=&quot;#000&quot;, int opacity=255)</td></tr>
+<tr class="memdesc:afb932a0d59c12485bb042453ce1cb0d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a point with the desired color.  <a href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Point_1_1Point.html#afb932a0d59c12485bb042453ce1cb0d1">More...</a><br /></td></tr>
 <tr class="separator:afb932a0d59c12485bb042453ce1cb0d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10ef1226a3eb3885cbe9ca28f7ef4911"><td class="memItemLeft" align="right" valign="top"><a id="a10ef1226a3eb3885cbe9ca28f7ef4911" name="a10ef1226a3eb3885cbe9ca28f7ef4911"></a>
 <a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Rectangle_1_1Rectangle.html">Rectangle</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getBoundingBox</b> (self)</td></tr>
-<tr class="memdesc:a10ef1226a3eb3885cbe9ca28f7ef4911"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the bounding box of a point. <br /></td></tr>
+<tr class="memdesc:a10ef1226a3eb3885cbe9ca28f7ef4911"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the bounding box of the point. <br /></td></tr>
 <tr class="separator:a10ef1226a3eb3885cbe9ca28f7ef4911"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a266679c613272e39662eb482f0f78436"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Rectangle_1_1Rectangle.html">Rectangle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Point_1_1Point.html#a266679c613272e39662eb482f0f78436">offset</a> (self, float value, bool truncated=False)</td></tr>
+<tr class="memdesc:a266679c613272e39662eb482f0f78436"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the enlarged point shape of the selected offset.  <a href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Point_1_1Point.html#a266679c613272e39662eb482f0f78436">More...</a><br /></td></tr>
+<tr class="separator:a266679c613272e39662eb482f0f78436"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html">Shape</a></td></tr>
-<tr class="memitem:a865161eed62c6ba8d2339f3af2afca00 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memItemLeft" align="right" valign="top"><a id="a865161eed62c6ba8d2339f3af2afca00" name="a865161eed62c6ba8d2339f3af2afca00"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, str color, int opacity)</td></tr>
-<tr class="memdesc:a865161eed62c6ba8d2339f3af2afca00 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html" title="The Shape class provides a Shape.">Shape</a>. <br /></td></tr>
+<tr class="memitem:a865161eed62c6ba8d2339f3af2afca00 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html#a865161eed62c6ba8d2339f3af2afca00">__init__</a> (self, str color, int opacity)</td></tr>
+<tr class="memdesc:a865161eed62c6ba8d2339f3af2afca00 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a shape.  <a href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html#a865161eed62c6ba8d2339f3af2afca00">More...</a><br /></td></tr>
 <tr class="separator:a865161eed62c6ba8d2339f3af2afca00 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1821fa82ad201d38b907e82516329f9b inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html#a1821fa82ad201d38b907e82516329f9b">setPose</a> (self, <a class="el" href="classdiscoverySimulator_1_1Pose_1_1Pose.html">Pose</a> pose)</td></tr>
-<tr class="memdesc:a1821fa82ad201d38b907e82516329f9b inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the position of a shape.  <a href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html#a1821fa82ad201d38b907e82516329f9b">More...</a><br /></td></tr>
+<tr class="memdesc:a1821fa82ad201d38b907e82516329f9b inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the position of the shape.  <a href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html#a1821fa82ad201d38b907e82516329f9b">More...</a><br /></td></tr>
 <tr class="separator:a1821fa82ad201d38b907e82516329f9b inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0cf43b5ff0f4e1f9f9b83798c253953 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html#ab0cf43b5ff0f4e1f9f9b83798c253953">setOpacity</a> (self, int opacity)</td></tr>
-<tr class="memdesc:ab0cf43b5ff0f4e1f9f9b83798c253953 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the opacity of a shape.  <a href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html#ab0cf43b5ff0f4e1f9f9b83798c253953">More...</a><br /></td></tr>
+<tr class="memdesc:ab0cf43b5ff0f4e1f9f9b83798c253953 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the opacity of the shape.  <a href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html#ab0cf43b5ff0f4e1f9f9b83798c253953">More...</a><br /></td></tr>
 <tr class="separator:ab0cf43b5ff0f4e1f9f9b83798c253953 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a326a0c7507fdae02136c40f32e1a25d1 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html#a326a0c7507fdae02136c40f32e1a25d1">setColor</a> (self, str color)</td></tr>
-<tr class="memdesc:a326a0c7507fdae02136c40f32e1a25d1 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the color of a shape.  <a href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html#a326a0c7507fdae02136c40f32e1a25d1">More...</a><br /></td></tr>
+<tr class="memdesc:a326a0c7507fdae02136c40f32e1a25d1 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the color of the shape.  <a href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html#a326a0c7507fdae02136c40f32e1a25d1">More...</a><br /></td></tr>
 <tr class="separator:a326a0c7507fdae02136c40f32e1a25d1 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a210271b31770d5e59b1e983bb042334e inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memItemLeft" align="right" valign="top"><a id="a210271b31770d5e59b1e983bb042334e" name="a210271b31770d5e59b1e983bb042334e"></a>
 <a class="el" href="classdiscoverySimulator_1_1Pose_1_1Pose.html">Pose</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getPose</b> (self)</td></tr>
-<tr class="memdesc:a210271b31770d5e59b1e983bb042334e inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the position of a shape. <br /></td></tr>
+<tr class="memdesc:a210271b31770d5e59b1e983bb042334e inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the position of the shape. <br /></td></tr>
 <tr class="separator:a210271b31770d5e59b1e983bb042334e inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5834fda03af565167499c08ab86592d inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memItemLeft" align="right" valign="top"><a id="aa5834fda03af565167499c08ab86592d" name="aa5834fda03af565167499c08ab86592d"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>getColor</b> (self)</td></tr>
-<tr class="memdesc:aa5834fda03af565167499c08ab86592d inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the color of a shape. <br /></td></tr>
-<tr class="separator:aa5834fda03af565167499c08ab86592d inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ed7b4e95b59faac6d2addb989bc6b86 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memItemLeft" align="right" valign="top"><a id="a8ed7b4e95b59faac6d2addb989bc6b86" name="a8ed7b4e95b59faac6d2addb989bc6b86"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>getIntersectionsWith</b> (self, shape)</td></tr>
-<tr class="memdesc:a8ed7b4e95b59faac6d2addb989bc6b86 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">3 possible cases due to the breakdown into lines: -&gt; circle vs circle -&gt; line vs line -&gt; circle vs line <br /></td></tr>
-<tr class="separator:a8ed7b4e95b59faac6d2addb989bc6b86 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf835de7b1945a8478d38656177a4471 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memItemLeft" align="right" valign="top"><a id="acf835de7b1945a8478d38656177a4471" name="acf835de7b1945a8478d38656177a4471"></a>
+str&#160;</td><td class="memItemRight" valign="bottom"><b>getColor</b> (self)</td></tr>
+<tr class="memdesc:acf835de7b1945a8478d38656177a4471 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the color of the shape. <br /></td></tr>
+<tr class="separator:acf835de7b1945a8478d38656177a4471 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7dd646bae02bc76a69de6aa510bc8a2c inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memItemLeft" align="right" valign="top"><a id="a7dd646bae02bc76a69de6aa510bc8a2c" name="a7dd646bae02bc76a69de6aa510bc8a2c"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>getBoundingBox</b> (self)</td></tr>
-<tr class="memdesc:a7dd646bae02bc76a69de6aa510bc8a2c inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the bounding box of a shape. <br /></td></tr>
+<tr class="memdesc:a7dd646bae02bc76a69de6aa510bc8a2c inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the bounding box of the shape. <br /></td></tr>
 <tr class="separator:a7dd646bae02bc76a69de6aa510bc8a2c inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad11b22c4ce1c48fcf48b388e72a5e05 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html#aad11b22c4ce1c48fcf48b388e72a5e05">addBorder</a> (self, <a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Border_1_1Border.html">Border</a> border)</td></tr>
-<tr class="memdesc:aad11b22c4ce1c48fcf48b388e72a5e05 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a border on a shape.  <a href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html#aad11b22c4ce1c48fcf48b388e72a5e05">More...</a><br /></td></tr>
+<tr class="memdesc:aad11b22c4ce1c48fcf48b388e72a5e05 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a border to the shape.  <a href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html#aad11b22c4ce1c48fcf48b388e72a5e05">More...</a><br /></td></tr>
 <tr class="separator:aad11b22c4ce1c48fcf48b388e72a5e05 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc9dacefcd379697b1d00308b1020c71 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html#acc9dacefcd379697b1d00308b1020c71">removeBorder</a> (self)</td></tr>
-<tr class="memdesc:acc9dacefcd379697b1d00308b1020c71 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a border on a shape.  <a href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html#acc9dacefcd379697b1d00308b1020c71">More...</a><br /></td></tr>
+<tr class="memitem:acc9dacefcd379697b1d00308b1020c71 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memItemLeft" align="right" valign="top"><a id="acc9dacefcd379697b1d00308b1020c71" name="acc9dacefcd379697b1d00308b1020c71"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>removeBorder</b> (self)</td></tr>
+<tr class="memdesc:acc9dacefcd379697b1d00308b1020c71 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the border of the shape. <br /></td></tr>
 <tr class="separator:acc9dacefcd379697b1d00308b1020c71 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e34b0a991c623264905f86fbbd407e5 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html#a2e34b0a991c623264905f86fbbd407e5">offset</a> (self, float value, bool truncated=False)</td></tr>
+<tr class="memdesc:a2e34b0a991c623264905f86fbbd407e5 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the enlarged shape of the selected offset.  <a href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html#a2e34b0a991c623264905f86fbbd407e5">More...</a><br /></td></tr>
+<tr class="separator:a2e34b0a991c623264905f86fbbd407e5 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab6fcf84af562aae3b8074ff910ff4d3 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memItemLeft" align="right" valign="top"><a id="aab6fcf84af562aae3b8074ff910ff4d3" name="aab6fcf84af562aae3b8074ff910ff4d3"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>addOrientationMark</b> (self)</td></tr>
+<tr class="memdesc:aab6fcf84af562aae3b8074ff910ff4d3 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an orientation mark to the shape (works only for Rectangle and Circle). <br /></td></tr>
+<tr class="separator:aab6fcf84af562aae3b8074ff910ff4d3 inherit pub_methods_classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ab0176e6e0d4a42501dcb91c54cf6b639"><td class="memItemLeft" align="right" valign="top">Tuple[float, float]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Point_1_1Point.html#ab0176e6e0d4a42501dcb91c54cf6b639">computeTransformation</a> (float xo, float yo, float dx, float dy, float o)</td></tr>
+<tr class="memdesc:ab0176e6e0d4a42501dcb91c54cf6b639"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the coordinates of the point transformed with a rotation at a certain distance from the center of rotation.  <a href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Point_1_1Point.html#ab0176e6e0d4a42501dcb91c54cf6b639">More...</a><br /></td></tr>
+<tr class="separator:ab0176e6e0d4a42501dcb91c54cf6b639"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >The <a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Point_1_1Point.html" title="The Point class provides a point.">Point</a> class provides a point. </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+<div class="textblock"><p >The <a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Point_1_1Point.html" title="The Point class provides a point shape.">Point</a> class provides a point shape. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="afb932a0d59c12485bb042453ce1cb0d1" name="afb932a0d59c12485bb042453ce1cb0d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb932a0d59c12485bb042453ce1cb0d1">&#9670;&nbsp;</a></span>__init__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def __init__ </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">str &#160;</td>
+          <td class="paramname"><em>color</em> = <code>&quot;#000&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &#160;</td>
+          <td class="paramname"><em>opacity</em> = <code>255</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructs a point with the desired color. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">color</td><td>Color of the point [hex] </td></tr>
+    <tr><td class="paramname">opacity</td><td>Opacity of the point (between 0 and 255) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html#a865161eed62c6ba8d2339f3af2afca00">Shape</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab0176e6e0d4a42501dcb91c54cf6b639" name="ab0176e6e0d4a42501dcb91c54cf6b639"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0176e6e0d4a42501dcb91c54cf6b639">&#9670;&nbsp;</a></span>computeTransformation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> Tuple[float, float] computeTransformation </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>xo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>yo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>o</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the coordinates of the point transformed with a rotation at a certain distance from the center of rotation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xo</td><td>x-coordinate of the center of rotation </td></tr>
+    <tr><td class="paramname">yo</td><td>y-coordinate of the center of rotation </td></tr>
+    <tr><td class="paramname">dx</td><td>x-offset distance from the center of rotation </td></tr>
+    <tr><td class="paramname">dy</td><td>y-offset distance from the center of rotation </td></tr>
+    <tr><td class="paramname">o</td><td>Angle of rotation [degrees] </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a266679c613272e39662eb482f0f78436" name="a266679c613272e39662eb482f0f78436"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a266679c613272e39662eb482f0f78436">&#9670;&nbsp;</a></span>offset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Rectangle_1_1Rectangle.html">Rectangle</a> offset </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>truncated</em> = <code>False</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the enlarged point shape of the selected offset. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>Offset size </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="classdiscoverySimulator_1_1representation_1_1shapes_1_1Shape_1_1Shape.html#a2e34b0a991c623264905f86fbbd407e5">Shape</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>representation/shapes/Point.py</li>
 </ul>
 </div><!-- contents -->

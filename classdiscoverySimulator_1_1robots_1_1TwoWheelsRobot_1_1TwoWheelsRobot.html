@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">Discovery Simulator
    </div>
-   
+   <div id="projectbrief">discoverySimulator is a Python package allowing to simulate environments in which mobile robots evolve. This simulator is accompanied by an interface allowing to visualize and control the simulation. This package is ideal for a playful learning of python and a discovery of mobile robotics.</div>
   </td>
   
   
@@ -93,7 +93,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>The <a class="el" href="classdiscoverySimulator_1_1robots_1_1TwoWheelsRobot_1_1TwoWheelsRobot.html" title="The TwoWheelsRobot class provides a two wheels robot.">TwoWheelsRobot</a> class provides a two wheels robot.  
+<p>The <a class="el" href="classdiscoverySimulator_1_1robots_1_1TwoWheelsRobot_1_1TwoWheelsRobot.html" title="The TwoWheelsRobot class provides a two wheels robot with a configurable shape.">TwoWheelsRobot</a> class provides a two wheels robot with a configurable shape.  
  <a href="classdiscoverySimulator_1_1robots_1_1TwoWheelsRobot_1_1TwoWheelsRobot.html#details">More...</a></p>
 
 <p>Inherits Robot.</p>
@@ -101,7 +101,7 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af59bdbb7a1507f1d219551fe12ddb773"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1robots_1_1TwoWheelsRobot_1_1TwoWheelsRobot.html#af59bdbb7a1507f1d219551fe12ddb773">__init__</a> (self, representation, float distanceBetweenWheels, float wheelsRadius, float wheelYPosition)</td></tr>
-<tr class="memdesc:af59bdbb7a1507f1d219551fe12ddb773"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a two wheels robot.  <a href="classdiscoverySimulator_1_1robots_1_1TwoWheelsRobot_1_1TwoWheelsRobot.html#af59bdbb7a1507f1d219551fe12ddb773">More...</a><br /></td></tr>
+<tr class="memdesc:af59bdbb7a1507f1d219551fe12ddb773"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a two wheels robot with the desired representation and wheels parameters.  <a href="classdiscoverySimulator_1_1robots_1_1TwoWheelsRobot_1_1TwoWheelsRobot.html#af59bdbb7a1507f1d219551fe12ddb773">More...</a><br /></td></tr>
 <tr class="separator:af59bdbb7a1507f1d219551fe12ddb773"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bbce0d924644c021fd2cd068e633ecb"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1robots_1_1TwoWheelsRobot_1_1TwoWheelsRobot.html#a7bbce0d924644c021fd2cd068e633ecb">setLeftWheelSpeed</a> (self, int speed)</td></tr>
 <tr class="memdesc:a7bbce0d924644c021fd2cd068e633ecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the speed of the left wheel.  <a href="classdiscoverySimulator_1_1robots_1_1TwoWheelsRobot_1_1TwoWheelsRobot.html#a7bbce0d924644c021fd2cd068e633ecb">More...</a><br /></td></tr>
@@ -111,7 +111,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a54e2c616bde12f92ce95fd2a69e0cc29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbfb33c611d8840162023bded0a6fddd"><td class="memItemLeft" align="right" valign="top"><a id="abbfb33c611d8840162023bded0a6fddd" name="abbfb33c611d8840162023bded0a6fddd"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>getAverageSpeed</b> (self)</td></tr>
-<tr class="memdesc:abbfb33c611d8840162023bded0a6fddd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the average speed of an object [rpm]. <br /></td></tr>
+<tr class="memdesc:abbfb33c611d8840162023bded0a6fddd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the average speed of the robot [px/timestep]. <br /></td></tr>
 <tr class="separator:abbfb33c611d8840162023bded0a6fddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95cf0eb42c95607daa3f14cc6f8d8131"><td class="memItemLeft" align="right" valign="top"><a id="a95cf0eb42c95607daa3f14cc6f8d8131" name="a95cf0eb42c95607daa3f14cc6f8d8131"></a>
 <a class="el" href="classdiscoverySimulator_1_1actuators_1_1Wheel_1_1Wheel.html">Wheel</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getRightWheel</b> (self)</td></tr>
@@ -123,7 +123,7 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>getAverageSpeed</b> (s
 <tr class="separator:a03bff9f30e6dc59dac9fba10644edd10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2a653d808858a74381d5799e7315054"><td class="memItemLeft" align="right" valign="top"><a id="ad2a653d808858a74381d5799e7315054" name="ad2a653d808858a74381d5799e7315054"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>getRightLinearSpeed</b> (self)</td></tr>
-<tr class="memdesc:ad2a653d808858a74381d5799e7315054"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the linear speed of the right wheel [px/min]. <br /></td></tr>
+<tr class="memdesc:ad2a653d808858a74381d5799e7315054"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the right wheel linear speed [px/min]. <br /></td></tr>
 <tr class="separator:ad2a653d808858a74381d5799e7315054"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a850f955e79b56219c56db99eac480a1b"><td class="memItemLeft" align="right" valign="top"><a id="a850f955e79b56219c56db99eac480a1b" name="a850f955e79b56219c56db99eac480a1b"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>getRightElementaryLinearSpeed</b> (self)</td></tr>
@@ -131,7 +131,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>getRightElementaryLi
 <tr class="separator:a850f955e79b56219c56db99eac480a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fa153cf9c31821dacf1f6c95a3e7871"><td class="memItemLeft" align="right" valign="top"><a id="a6fa153cf9c31821dacf1f6c95a3e7871" name="a6fa153cf9c31821dacf1f6c95a3e7871"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>getLeftLinearSpeed</b> (self)</td></tr>
-<tr class="memdesc:a6fa153cf9c31821dacf1f6c95a3e7871"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the linear speed of the left wheel [px/min]. <br /></td></tr>
+<tr class="memdesc:a6fa153cf9c31821dacf1f6c95a3e7871"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the left wheel linear speed [px/min]. <br /></td></tr>
 <tr class="separator:a6fa153cf9c31821dacf1f6c95a3e7871"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7eaa172aed37dc99e5014319751c5c3d"><td class="memItemLeft" align="right" valign="top"><a id="a7eaa172aed37dc99e5014319751c5c3d" name="a7eaa172aed37dc99e5014319751c5c3d"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>getLeftElementaryLinearSpeed</b> (self)</td></tr>
@@ -139,11 +139,11 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>getLeftElementaryLin
 <tr class="separator:a7eaa172aed37dc99e5014319751c5c3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad09af05bab503bf7614f8ead604373b1"><td class="memItemLeft" align="right" valign="top"><a id="ad09af05bab503bf7614f8ead604373b1" name="ad09af05bab503bf7614f8ead604373b1"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>getDistanceBetweenWheels</b> (self)</td></tr>
-<tr class="memdesc:ad09af05bab503bf7614f8ead604373b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the distance between wheels [px]. <br /></td></tr>
+<tr class="memdesc:ad09af05bab503bf7614f8ead604373b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the distance between the wheels of the robot [px]. <br /></td></tr>
 <tr class="separator:ad09af05bab503bf7614f8ead604373b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >The <a class="el" href="classdiscoverySimulator_1_1robots_1_1TwoWheelsRobot_1_1TwoWheelsRobot.html" title="The TwoWheelsRobot class provides a two wheels robot.">TwoWheelsRobot</a> class provides a two wheels robot. </p>
+<div class="textblock"><p >The <a class="el" href="classdiscoverySimulator_1_1robots_1_1TwoWheelsRobot_1_1TwoWheelsRobot.html" title="The TwoWheelsRobot class provides a two wheels robot with a configurable shape.">TwoWheelsRobot</a> class provides a two wheels robot with a configurable shape. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af59bdbb7a1507f1d219551fe12ddb773" name="af59bdbb7a1507f1d219551fe12ddb773"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af59bdbb7a1507f1d219551fe12ddb773">&#9670;&nbsp;</a></span>__init__()</h2>
@@ -189,13 +189,13 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>getDistanceBetweenWh
       </table>
 </div><div class="memdoc">
 
-<p>Create a two wheels robot. </p>
+<p>Create a two wheels robot with the desired representation and wheels parameters. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">representation</td><td>representation of the robot </td></tr>
-    <tr><td class="paramname">distanceBetweenWheels</td><td>distance between wheels [px] </td></tr>
-    <tr><td class="paramname">wheelsRadius</td><td>radius of wheels [px] </td></tr>
-    <tr><td class="paramname">wheelYPosition</td><td>position of wheels on the robot [px] </td></tr>
+    <tr><td class="paramname">representation</td><td>Representation of the robot </td></tr>
+    <tr><td class="paramname">distanceBetweenWheels</td><td>Distance between the wheels of the robot [px] </td></tr>
+    <tr><td class="paramname">wheelsRadius</td><td>Radius of the wheels [px] </td></tr>
+    <tr><td class="paramname">wheelYPosition</td><td>y-position of the wheels on the robot [px] </td></tr>
   </table>
   </dd>
 </dl>

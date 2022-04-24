@@ -35,7 +35,7 @@
   <td id="projectalign">
    <div id="projectname">Discovery Simulator
    </div>
-   
+   <div id="projectbrief">discoverySimulator is a Python package allowing to simulate environments in which mobile robots evolve. This simulator is accompanied by an interface allowing to visualize and control the simulation. This package is ideal for a playful learning of python and a discovery of mobile robotics.</div>
   </td>
   
   
@@ -93,7 +93,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>The <a class="el" href="classdiscoverySimulator_1_1simulation_1_1Simulation_1_1Simulation.html" title="The Simulation class provides a simulation.">Simulation</a> class provides a simulation.  
+<p>The <a class="el" href="classdiscoverySimulator_1_1simulation_1_1Simulation_1_1Simulation.html" title="The Simulation class provides a controller to simulate an environment and the objects in the environm...">Simulation</a> class provides a controller to simulate an environment and the objects in the environment.  
  <a href="classdiscoverySimulator_1_1simulation_1_1Simulation_1_1Simulation.html#details">More...</a></p>
 
 <p>Inherits Observable.</p>
@@ -101,33 +101,65 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6a4c91272e7e21ec015487e76a3204eb"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1simulation_1_1Simulation_1_1Simulation.html#a6a4c91272e7e21ec015487e76a3204eb">__init__</a> (self, environment=None)</td></tr>
-<tr class="memdesc:a6a4c91272e7e21ec015487e76a3204eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new simulation.  <a href="classdiscoverySimulator_1_1simulation_1_1Simulation_1_1Simulation.html#a6a4c91272e7e21ec015487e76a3204eb">More...</a><br /></td></tr>
+<tr class="memdesc:a6a4c91272e7e21ec015487e76a3204eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a simulation.  <a href="classdiscoverySimulator_1_1simulation_1_1Simulation_1_1Simulation.html#a6a4c91272e7e21ec015487e76a3204eb">More...</a><br /></td></tr>
 <tr class="separator:a6a4c91272e7e21ec015487e76a3204eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dc75960431ff8dc8babd0cf1d6dc9a6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1simulation_1_1Simulation_1_1Simulation.html#a4dc75960431ff8dc8babd0cf1d6dc9a6">setAcceleration</a> (self, float acceleration)</td></tr>
 <tr class="memdesc:a4dc75960431ff8dc8babd0cf1d6dc9a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the acceleration of the simulation.  <a href="classdiscoverySimulator_1_1simulation_1_1Simulation_1_1Simulation.html#a4dc75960431ff8dc8babd0cf1d6dc9a6">More...</a><br /></td></tr>
 <tr class="separator:a4dc75960431ff8dc8babd0cf1d6dc9a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a339e80b9ce1fed06e84cd9ddd7b7343b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1simulation_1_1Simulation_1_1Simulation.html#a339e80b9ce1fed06e84cd9ddd7b7343b">setPlay</a> (self, bool state)</td></tr>
+<tr class="memdesc:a339e80b9ce1fed06e84cd9ddd7b7343b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the play state of the simulation.  <a href="classdiscoverySimulator_1_1simulation_1_1Simulation_1_1Simulation.html#a339e80b9ce1fed06e84cd9ddd7b7343b">More...</a><br /></td></tr>
+<tr class="separator:a339e80b9ce1fed06e84cd9ddd7b7343b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ac4d2f059d5a8c03bf29581420f5f20"><td class="memItemLeft" align="right" valign="top"><a id="a0ac4d2f059d5a8c03bf29581420f5f20" name="a0ac4d2f059d5a8c03bf29581420f5f20"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>togglePlayState</b> (self)</td></tr>
+<tr class="memdesc:a0ac4d2f059d5a8c03bf29581420f5f20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggles the play state of the simulation. <br /></td></tr>
+<tr class="separator:a0ac4d2f059d5a8c03bf29581420f5f20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf3ba9e479e33668c745c0b83c12bc3c"><td class="memItemLeft" align="right" valign="top"><a id="abf3ba9e479e33668c745c0b83c12bc3c" name="abf3ba9e479e33668c745c0b83c12bc3c"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>getAcceleration</b> (self)</td></tr>
 <tr class="memdesc:abf3ba9e479e33668c745c0b83c12bc3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the acceleration of the simulation. <br /></td></tr>
 <tr class="separator:abf3ba9e479e33668c745c0b83c12bc3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ae7bb618fe42a1e8348cd042b174271"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdiscoverySimulator_1_1simulation_1_1Simulation_1_1Simulation.html#a1ae7bb618fe42a1e8348cd042b174271">time</a> (self)</td></tr>
-<tr class="memdesc:a1ae7bb618fe42a1e8348cd042b174271"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the time elapsed since the beginning of the simulation.  <a href="classdiscoverySimulator_1_1simulation_1_1Simulation_1_1Simulation.html#a1ae7bb618fe42a1e8348cd042b174271">More...</a><br /></td></tr>
+<tr class="memitem:afc5e64ba0408b9f4d1d2532268dbe54a"><td class="memItemLeft" align="right" valign="top"><a id="afc5e64ba0408b9f4d1d2532268dbe54a" name="afc5e64ba0408b9f4d1d2532268dbe54a"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>getPlayState</b> (self)</td></tr>
+<tr class="memdesc:afc5e64ba0408b9f4d1d2532268dbe54a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the play state of the simulation. <br /></td></tr>
+<tr class="separator:afc5e64ba0408b9f4d1d2532268dbe54a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ae7bb618fe42a1e8348cd042b174271"><td class="memItemLeft" align="right" valign="top"><a id="a1ae7bb618fe42a1e8348cd042b174271" name="a1ae7bb618fe42a1e8348cd042b174271"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>time</b> (self)</td></tr>
+<tr class="memdesc:a1ae7bb618fe42a1e8348cd042b174271"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the time elapsed since the beginning of the simulation [s]. <br /></td></tr>
 <tr class="separator:a1ae7bb618fe42a1e8348cd042b174271"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad22709b2e67308af35f55680d5a026e0"><td class="memItemLeft" align="right" valign="top"><a id="ad22709b2e67308af35f55680d5a026e0" name="ad22709b2e67308af35f55680d5a026e0"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>run</b> (self)</td></tr>
 <tr class="memdesc:ad22709b2e67308af35f55680d5a026e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs the simulation. <br /></td></tr>
 <tr class="separator:ad22709b2e67308af35f55680d5a026e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26ca7c1c7fcdd35378e7be97727047a6"><td class="memItemLeft" align="right" valign="top"><a id="a26ca7c1c7fcdd35378e7be97727047a6" name="a26ca7c1c7fcdd35378e7be97727047a6"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>stop</b> (self)</td></tr>
+<tr class="memdesc:a26ca7c1c7fcdd35378e7be97727047a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops the simulation. <br /></td></tr>
+<tr class="separator:a26ca7c1c7fcdd35378e7be97727047a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd15ab3dd576dfe8c56a3828e092fd25"><td class="memItemLeft" align="right" valign="top"><a id="acd15ab3dd576dfe8c56a3828e092fd25" name="acd15ab3dd576dfe8c56a3828e092fd25"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>showInterface</b> (self)</td></tr>
-<tr class="memdesc:acd15ab3dd576dfe8c56a3828e092fd25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the interface where the simulation takes place. <br /></td></tr>
+<tr class="memdesc:acd15ab3dd576dfe8c56a3828e092fd25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the simulation in a graphical interface. <br /></td></tr>
 <tr class="separator:acd15ab3dd576dfe8c56a3828e092fd25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9f4d71e36049fff3a6b076e9722b72f"><td class="memItemLeft" align="right" valign="top"><a id="af9f4d71e36049fff3a6b076e9722b72f" name="af9f4d71e36049fff3a6b076e9722b72f"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>closeInterface</b> (self)</td></tr>
-<tr class="memdesc:af9f4d71e36049fff3a6b076e9722b72f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes the interface. <br /></td></tr>
+<tr class="memdesc:af9f4d71e36049fff3a6b076e9722b72f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes the graphical interface of the simulation. <br /></td></tr>
 <tr class="separator:af9f4d71e36049fff3a6b076e9722b72f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5ec28c7326c8bd85418878e83775fb2"><td class="memItemLeft" align="right" valign="top"><a id="aa5ec28c7326c8bd85418878e83775fb2" name="aa5ec28c7326c8bd85418878e83775fb2"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>sleep</b> (self, float duration)</td></tr>
+<tr class="memdesc:aa5ec28c7326c8bd85418878e83775fb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sleeps the simulation for a certain amount of time [s]. <br /></td></tr>
+<tr class="separator:aa5ec28c7326c8bd85418878e83775fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a2a6bd2c6dcc6d72f0ca493cc7c7997"><td class="memItemLeft" align="right" valign="top"><a id="a0a2a6bd2c6dcc6d72f0ca493cc7c7997" name="a0a2a6bd2c6dcc6d72f0ca493cc7c7997"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>sync</b> (self)</td></tr>
+<tr class="memdesc:a0a2a6bd2c6dcc6d72f0ca493cc7c7997"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helps to synchronize the simulation with the user code. <br /></td></tr>
+<tr class="separator:a0a2a6bd2c6dcc6d72f0ca493cc7c7997"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad785f15afd204ec0297964c7793aa061"><td class="memItemLeft" align="right" valign="top"><a id="ad785f15afd204ec0297964c7793aa061" name="ad785f15afd204ec0297964c7793aa061"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>decreaseAcceleration</b> (self)</td></tr>
+<tr class="memdesc:ad785f15afd204ec0297964c7793aa061"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decreases the acceleration of the simulation. <br /></td></tr>
+<tr class="separator:ad785f15afd204ec0297964c7793aa061"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22f5f2874c112f42765a8ff3268e2ce1"><td class="memItemLeft" align="right" valign="top"><a id="a22f5f2874c112f42765a8ff3268e2ce1" name="a22f5f2874c112f42765a8ff3268e2ce1"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>increaseAcceleration</b> (self)</td></tr>
+<tr class="memdesc:a22f5f2874c112f42765a8ff3268e2ce1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increases the acceleration of the simulation. <br /></td></tr>
+<tr class="separator:a22f5f2874c112f42765a8ff3268e2ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >The <a class="el" href="classdiscoverySimulator_1_1simulation_1_1Simulation_1_1Simulation.html" title="The Simulation class provides a simulation.">Simulation</a> class provides a simulation. </p>
+<div class="textblock"><p >The <a class="el" href="classdiscoverySimulator_1_1simulation_1_1Simulation_1_1Simulation.html" title="The Simulation class provides a controller to simulate an environment and the objects in the environm...">Simulation</a> class provides a controller to simulate an environment and the objects in the environment. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6a4c91272e7e21ec015487e76a3204eb" name="a6a4c91272e7e21ec015487e76a3204eb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6a4c91272e7e21ec015487e76a3204eb">&#9670;&nbsp;</a></span>__init__()</h2>
@@ -155,10 +187,10 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>closeInterface</b> (se
       </table>
 </div><div class="memdoc">
 
-<p>Constructs a new simulation. </p>
+<p>Constructs a simulation. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">environment</td><td>environment where the simulation will take place. </td></tr>
+    <tr><td class="paramname">environment</td><td>Environment to simulate. </td></tr>
   </table>
   </dd>
 </dl>
@@ -195,31 +227,46 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>closeInterface</b> (se
 <p>Sets the acceleration of the simulation. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">acceleration</td><td>New acceleration of the simulation </td></tr>
+    <tr><td class="paramname">acceleration</td><td>Acceleration of the simulation (between 0.1 and 15) </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a1ae7bb618fe42a1e8348cd042b174271" name="a1ae7bb618fe42a1e8348cd042b174271"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ae7bb618fe42a1e8348cd042b174271">&#9670;&nbsp;</a></span>time()</h2>
+<a id="a339e80b9ce1fed06e84cd9ddd7b7343b" name="a339e80b9ce1fed06e84cd9ddd7b7343b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a339e80b9ce1fed06e84cd9ddd7b7343b">&#9670;&nbsp;</a></span>setPlay()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> float time </td>
+          <td class="memname">def setPlay </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>state</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the time elapsed since the beginning of the simulation. </p>
-<p >[s] </p>
+<p>Sets the play state of the simulation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>Play state of the simulation </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
